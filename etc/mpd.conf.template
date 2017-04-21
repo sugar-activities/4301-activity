@@ -1,0 +1,17 @@
+# MPD CONFIG FILE
+# olpc-specific version: Owen Williams <owen-olpc@ywwg.com>
+# For a full description of all config parameters,
+# Check the mpd man page, "man mpd".
+
+music_directory     "/home/olpc/.mpd/Music"
+playlist_directory  "/home/olpc/.mpd/Playlists"
+
+db_file             "/home/olpc/.mpd/mpd.db"
+pid_file            "/home/olpc/.mpd/pid_file"
+log_file            "/home/olpc/.mpd/info.log"
+error_file          "/home/olpc/.mpd/errors.log"
+state_file          "/home/olpc/.mpd/state"
+user                "olpc"
+#comment out the next line to allow remote access
+bind_to_address     "localhost"
+default_permissions "read,add,control,admin"

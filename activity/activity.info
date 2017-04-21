@@ -1,0 +1,8 @@
+[Activity]
+name = Sonata
+service_name = com.ywwg.Sonata
+id = com.ywwg.Sonata
+class = SonataActivity.SonataActivity
+icon = activity-sonata
+activity_version = 11
+show_launcher = yes
